@@ -18,8 +18,14 @@ body{
 
 .choices > div{
 	display: none;
+	text-align: center;
 }
 
 .reset{
 	display: none;
+}
+p{
+	font-weight: bold;
+	font-size: 1.5em;
+	color: white;
 }
