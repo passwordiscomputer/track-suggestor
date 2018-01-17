@@ -16,3 +16,10 @@ body{
 	background-color: #92BFB1;
 }
 
+.choices > div{
+	display: none;
+}
+
+.reset{
+	display: none;
+}
