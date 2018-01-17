@@ -7,9 +7,48 @@
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
     <meta charset="utf-8">
-    <title></title>
+    <title>Track Suggestor</title>
   </head>
   <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1> Track Selector </h1>
+        <h3>Choose Wisely</h3>
+      </div>
+      
+      <form id="trackForm">
+        <label for="fEvBE">Are you more interested in front end or backend design?</label>
+        <select class="form-control" id="fEvBE">
+          <option>Front End</option>
+          <option>Back End</option>
+        </select>
+        <label for="size">What size of companies are you interested in working for</label>
+        <select class="form-control" id="size">
+          <option>Small Companies and Start-ups</option>
+          <option>Large Companies</option>
+          <option>No Preference</option>
+        </select>
+        <label for="android">Are you Specifically interested in Android Development?</label>
+        <select class="form-control" id="">
+          <option>Yes</option>
+          <option>Nah man</option>
+        </select>
+        <label for="windows">Are you specifically interested in Windows Development?</label>
+        <select class="form-control" id="style">
+          <option>Yes</option>
+          <option>Heck No!</option>
+          
+        </select>
+        <label for="design">Do you have an interest in design and user experience?</label>
+        <select class="form-control" id="genderPref">
+          <option>No preference</option>
+          <option>Gals</option>
+          <option>Dudes</option>
+        </select>
+        <button type="submit" class="btn btn-info">Submit</button>
+      </form>
+      
 
-  </body>
+    </div>
+ </body>
 </html>
